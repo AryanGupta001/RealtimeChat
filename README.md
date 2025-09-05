@@ -1,26 +1,37 @@
-📡 RealtimeChat
+# 📡 RealtimeChat
 
-A full-stack real-time chat application built with React (Vite), Node.js (Express), MongoDB, and Socket.IO.
+A full-stack real-time chat application built with **React (Vite)**, **Node.js (Express)**, **MongoDB**, and **Socket.IO**.  
 It allows users to register, log in, and chat with each other in real time with persistent message history.
 
-🚀 Features
+---
 
-🔑 Authentication & Authorization (JWT-based)
+## 🚀 Features
 
-💬 1:1 Real-Time Messaging using Socket.IO
+- 🔑 **Authentication & Authorization** (JWT-based)
+- 💬 **1:1 Real-Time Messaging** using Socket.IO
+- 🗄️ **Persistent Chat History** stored in MongoDB
+- 🎨 **Modern UI** powered by TailwindCSS & DaisyUI
+- 🌐 **CORS-Ready** for smooth frontend-backend integration
+- 📱 **Responsive Design** (works on desktop and mobile)
+- 🌍 **Production-Ready** with backend serving built frontend
 
-🗄️ Persistent Chat History stored in MongoDB
+---
 
-🎨 Modern UI powered by TailwindCSS & DaisyUI
+## 🏗️ Tech Stack
 
-🌐 CORS-Ready for smooth frontend-backend integration
+| Layer           | Technology              |
+|----------------|----------------------|
+| **Frontend**   | React (Vite), TailwindCSS, DaisyUI |
+| **Backend**    | Node.js, Express.js, Socket.IO |
+| **Database**   | MongoDB (Mongoose) |
+| **Deployment** | Render |
 
-📱 Responsive Design (works on desktop and mobile)
+---
 
-🌍 Production-Ready with backend serving built frontend
-
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
+```bash
 1️⃣ Clone the Repository
+
 git clone https://github.com/AryanGupta001/RealtimeChat.git
 cd RealtimeChat
 
@@ -49,3 +60,4 @@ npm run dev --prefix frontend
 
 
 Visit http://localhost:5173 in your browser.
+
